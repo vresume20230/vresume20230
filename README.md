@@ -49,6 +49,13 @@ Full-Stack Developer | Proficient in C, Python, Java, JavaScript, HTML, CSS, SQL
 
 ---
 
+### ✨ Featured Programs
+
+- 🧑‍💻 Participating in **[Google Summer of Code (GSoC) 2025](https://summerofcode.withgoogle.com)** with focus on open source projects under the Python Software Foundation, FOSSASIA, and Postman
+- 🤖 Engaged in the **[Microsoft AI Skills Challenge 2025](https://aiskillsfest.event.microsoft.com)**, actively learning Generative AI, Microsoft Copilot, and Azure AI tools
+
+---
+
 ### 🧠 Skills & Technologies
 
 **Languages:**  
@@ -127,6 +134,8 @@ Including: DevOps, REST APIs, React, Redux, SQL, NoSQL, C#, Python, GitHub, and 
 
 ### 🚀 Currently Learning & Goals
 
+- 🧑‍💻 Actively participating in **[Google Summer of Code (GSoC) 2025](https://summerofcode.withgoogle.com)**, preparing proposals and contributing to open source under organizations like the [Google Deepmind](https://deepmind.google) | [Python Software Foundation](https://www.python.org/psf-landing) | [FOSSASIA](https://fossasia.org)  
+- 🤖 Taking part in the **[Microsoft AI Skills Challenge 2025](https://aiskillsfest.event.microsoft.com)**, exploring Generative AI, Azure AI, and Microsoft Copilot Studio  
 - 🎓 Completing the **[Massachusetts Institute of Technology (MIT)](https://mit.edu) | [MIT OpenCourseWare (OCW)](https://ocw.mit.edu) | [Electrical Engineering and Computer Science (EECS)](https://www.eecs.mit.edu) Curriculum** (130+ full courses)  
 - 🚀 Participating in **Microsoft AI Skills Challenge 2025** (50 Days of Learning)  
 - 📚 Exploring **Generative AI, Large Language Models (LLMs), and Deep Learning**  
