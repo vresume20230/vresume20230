@@ -3,47 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venkateswarlu | Dev Portal</title>
+    <title>V. Meenuga | Dev Portal</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        @keyframes scan { 0% { top: 0; } 100% { top: 100%; } }
-        body { background: #020617; color: #f8fafc; overflow-x: hidden; }
-        .cyber-border { position: relative; border: 1px solid #1e293b; background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(12px); overflow: hidden; }
-        .cyber-border::before { content: ""; position: absolute; width: 100%; height: 2px; background: rgba(56, 189, 248, 0.5); animation: scan 3s linear infinite; z-index: 10; opacity: 0.3; }
-        .neon-text { text-shadow: 0 0 10px rgba(56, 189, 248, 0.5); }
-        .nav-link { position: relative; transition: 0.3s; }
-        .nav-link:hover::after { content: ""; position: absolute; bottom: -5px; left: 0; width: 100%; height: 2px; background: #38bdf8; box-shadow: 0 0 10px #38bdf8; }
+        body { background: #020617; color: #f8fafc; font-family: 'Inter', sans-serif; }
+        .cyber-card { background: rgba(15, 23, 42, 0.7); border: 1px solid rgba(56, 189, 248, 0.2); backdrop-filter: blur(10px); position: relative; overflow: hidden; }
+        .cyber-card:hover { border-color: #38bdf8; box-shadow: 0 0 20px rgba(56, 189, 248, 0.1); }
+        .glitch-text { text-shadow: 2px 0 #38bdf8, -2px 0 #10b981; }
+        .nav-active { border-bottom: 2px solid #38bdf8; color: #38bdf8; text-shadow: 0 0 8px #38bdf8; }
     </style>
 </head>
-<body class="min-h-screen">
-    <nav class="p-6 flex justify-between items-center max-w-7xl mx-auto">
-        <div class="text-2xl font-black tracking-tighter neon-text uppercase">V.Meenuga_</div>
-        <div class="space-x-8 font-mono text-sm uppercase tracking-widest">
-            <a href="index.html" class="nav-link text-sky-400">Home</a>
-            <a href="about.html" class="nav-link text-slate-400">Archive</a>
-            <a href="projects.html" class="nav-link text-slate-400">Builds</a>
-            <a href="contact.html" class="nav-link text-slate-400">Connect</a>
+<body class="min-h-screen border-t-4 border-sky-500">
+    <nav class="p-8 flex justify-between items-center max-w-7xl mx-auto">
+        <div class="text-2xl font-black tracking-tighter uppercase glitch-text">V.Meenuga_</div>
+        <div class="hidden md:flex space-x-10 font-mono text-xs uppercase tracking-[0.2em]">
+            <a href="index.html" class="nav-active">01_Home</a>
+            <a href="about.html" class="hover:text-sky-400 transition">02_Archive</a>
+            <a href="projects.html" class="hover:text-sky-400 transition">03_Builds</a>
+            <a href="contact.html" class="hover:text-sky-400 transition">04_Connect</a>
         </div>
     </nav>
 
-    <main class="max-w-7xl mx-auto mt-20 px-6 grid grid-cols-12 gap-6">
-        <div class="col-span-12 md:col-span-8 cyber-border p-12 rounded-sm border-l-4 border-l-sky-500">
-            <h2 class="font-mono text-sky-500 mb-2 uppercase tracking-widest text-sm">// Status: Active</h2>
-            <h1 class="text-6xl md:text-8xl font-black uppercase mb-6 italic tracking-tighter">Fullstack <span class="text-sky-500">Architect</span></h1>
-            <p class="text-slate-400 text-lg max-w-xl leading-relaxed">Specializing in high-performance React ecosystems and AWS cloud infrastructure. Driven by the MIT EECS curriculum.</p>
+    <main class="max-w-7xl mx-auto px-6 mt-10 grid grid-cols-12 gap-6">
+        <div class="col-span-12 md:col-span-8 cyber-card p-12 rounded-sm">
+            <h2 class="font-mono text-sky-500 text-sm mb-4 tracking-[0.3em] uppercase">// Authenticated: Full-Stack Dev</h2>
+            <h1 class="text-6xl md:text-8xl font-black uppercase italic leading-none mb-6">Mastering <br><span class="text-sky-500">The Machine</span></h1>
+            <p class="text-slate-400 text-lg max-w-lg leading-relaxed border-l-2 border-sky-900 pl-6">Full-stack specialist pushing the limits of React, Node.js, and AWS. Currently pursuing the MIT EECS core curriculum.</p>
         </div>
 
-        <div class="col-span-12 md:col-span-4 cyber-border p-8 flex flex-col justify-center items-center text-center">
-            <div class="text-7xl font-black text-sky-400 mb-2">01</div>
-            <div class="uppercase text-xs tracking-[0.3em] font-mono text-slate-500">Global Rank / AWS DeepRacer</div>
-        </div>
-
-        <div class="col-span-12 flex flex-wrap gap-4 mt-10">
-            <div class="px-6 py-2 border border-sky-500/30 bg-sky-500/5 rounded-full text-xs font-mono uppercase tracking-widest">Python.py</div>
-            <div class="px-6 py-2 border border-sky-500/30 bg-sky-500/5 rounded-full text-xs font-mono uppercase tracking-widest">React.jsx</div>
-            <div class="px-6 py-2 border border-sky-500/30 bg-sky-500/5 rounded-full text-xs font-mono uppercase tracking-widest">AWS_Cloud</div>
-            <div class="px-6 py-2 border border-sky-500/30 bg-sky-500/5 rounded-full text-xs font-mono uppercase tracking-widest">GSoC_2025</div>
+        <div class="col-span-12 md:col-span-4 cyber-card p-10 flex flex-col justify-center items-center">
+            <div class="text-8xl font-black text-sky-400 leading-none">01</div>
+            <div class="uppercase text-[10px] tracking-[0.4em] font-mono text-slate-500 mt-4 text-center">Global Rank <br> AWS DeepRacer</div>
         </div>
     </main>
 </body>
